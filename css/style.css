@@ -1,0 +1,145 @@
+html, body {
+  background-color: #2d4059;
+  margin: 0 auto;
+  font-family: Helvetica,sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  font-family: Helvetica,sans-serif;
+}
+
+.contact {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+}
+
+.icon {
+  font-size: 40px;
+  color: rgba(226, 226, 226, 0.5);
+  margin: 0 25px;
+}
+
+.icon:hover {
+  color: rgba(255, 255, 255, 0.856);
+}
+
+.about {
+  position: fixed;
+  height: 100vh;
+  width: 30%;
+  text-align: right;
+  /* background-image: url("../img/yarn.jpg"); */
+  background-attachment: fixed;
+  background-size: cover;
+  color: #a2a2a2;
+}
+
+.me {
+  margin: 40px;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.774);
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.container {
+  text-align: center;
+
+}
+
+.project {
+  margin: 10px;
+  text-align: center;
+
+}
+
+.logo {
+  padding: 5px;
+}
+
+.skill {
+  display: inline-block;
+  margin: 10px;
+  color:#a2a2a2
+}
+
+.picture {
+  border-radius: 10px;
+  width: 500px;
+}
+
+.empty {
+  background-color:#1f1815;
+}
+
+.title {
+  font-size: 2em;
+  margin-top: 50px;
+  color: #e2e2e2
+}
+
+.blurb {
+  padding: 10px;
+  
+  color: #e2e2e2
+}
+.content{
+  font-size: 15px;
+  color: #a2a2a2;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.link-container {
+  display: inline-block;
+  width: 90px;
+  margin: 10px
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    height: 300px;
+    position: relative;
+    width: 100%;
+  }
+
+  .skill {
+    margin: 2px;
+    font-size: 10px;
+    width: 65px;
+  }
+
+  body {
+    grid-template-columns: 100%;
+    grid-template-rows: 300px 0px auto
+  }
+  
+  .picture {
+    width: 350px;
+  }
+
+  .link-container {
+    margin: 2px;
+    width: 70px;
+  }
+
+  .link {
+    font-size: 18px;
+  }
+
+  img {
+    width: 40px;
+  }
+
+  .contact {
+    text-align: center;
+  }
+}

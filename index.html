@@ -1,26 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memory Card Game</title>
-    <link rel="stylesheet" href="css/main.css">
-    <script defer src="js/main.js"></script>
-</head>
-
-
-<body>
-    
-        <h1 id="result">test</h1>
-        <div id="heartsImg"><img></div>
-        <div id="deck" >
-            <section id="cardDivs" class="container">
-
-            </section>
-            
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a7664c98b1.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Livvic&display=swap"
+      rel="stylesheet"
+    />
+    <title>Atusa Seyednaseri</title>
+  </head>
+  <body>
+    <section class="about">
+      <div class="me">
+        I am Atusa
+        <br />
+        builing app is my habit
+      </div>
+      <div class="contact">
+        <a
+          href="https://www.linkedin.com/in/kelseyrcox/"
+          target="blank"
+          class="icon"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/kelcc169" target="blank" class="icon"
+          ><i class="fab fa-github-square"></i
+        ></a>
+        <a href="mailto:kelsey.cox169@gmail.com" class="icon"
+          ><i class="fas fa-envelope-square"></i
+        ></a>
+        <a href="img/resume-kelsey-cox.pdf" class="icon" target="blank"
+          ><i class="fas fa-file"></i
+        ></a>
+      </div>
+    </section>
+    <section class="empty"></section>
+    <section class="container">
+      <div class="blurb">
+        <div class="title">Full-Stack Developer</div>
+        <p class="content">
+          I am a Full Stack Web Developer moving from a career in education. As
+          a teacher, I learned to be adaptive and creative with my problem
+          solving. I'm looking forward to applying those skills and others to
+          web development!
+        </p>
+      </div>
+      <div>
+        <div class="title">Skills</div>
+        <p>
+          <span class="skill"> JavaScript </span>
+          <span class="skill"> React </span>
+          <span class="skill"> Node.js </span>
+          <span class="skill"> Express </span>
+          <span class="skill"> Python </span>
+          <span class="skill"> Django </span>
+          <span class="skill"> SQL </span>
+          <span class="skill"> PostgresSQL </span>
+          <br/>
+          
+          <span class="skill"> MongoDB </span>
+          <span class="skill"> Mongoose </span>
+          <span class="skill"> HTML </span>
+          <span class="skill"> CSS </span>
+          <span class="skill"> Bootstrap </span>
+          <span class="skill"> Materialize </span>
+          <span class="skill"> Semantic-UI-React</span>
+          <span class="skill"> Heroku </span>
+        </p>
+      </div>
+      <div class="title">Projects</div>
+      <div class="project">
+        <p class="title">Planify</p>
+        <p class="skill">Planify is web app that allows those who love planning and organizing to 
+          post their to-do lists. Note their responsibilities 
+          and deadlines and is built on the MERN stack</p>
+        
+        <p class="content">React.js | Express | MongoDB | Mongoose | JavaScript | Token Authentication | HTML | CSS | Semantic UI React | AWS |Heroku</p>
+        <span>
+          <a href="https://planify-app.herokuapp.com/" target="blank">
+            <img
+              src="img/home.png"
+              alt="planify screen shot"
+              class="picture"
+            />
+          </a>
+        </span>
+      </div>
+      <div class="project">
+        <p class="title">Petcation</p>
+        <p class="skill">Petcation provides a community for pet owners and pet sitters to connect. Users can sign up and create either an owners profile or sitters profile. They can also customize their page by adding photos and writing descriptions of their pets. 
+          Petcation allows pet owners to post petcations aka posts for pet sitters. Our friends are then able to see available dates and respond to pet sit voluntarily. Best of all, our animals get a chance to take a petcation with our friends!
+        </p>
+        <p class="content">
+Django | Python | PostgresSQL |  Javascript | HTML | CSS | Materialize | AWS | Heroku
+        </p>
+        <span>
+          <a href="https://petcation.herokuapp.com/" target="blank">
+            <img
+              src="img/petcation.png"
+              alt="petcation screenshot"
+              class="picture"
+            />
+          </a>
+        </span>
+      </div>
+      <div class="project">
+        <p class="title">Smoothiverse</p>
+        <p class="skill">The goal of this project was to build a full-stack application with 
+        Node/Express/MongoDB to allow smoothie lovers to 
+        find all different kind of smoothie recipes as well as submit 
+        their own favorite recipes</p>
+       
+<p class="content">Express  | MongoDB | Mongoose | JavaScript | OAuth Authentication | HTML | CSS | Materialize | Heroku</p>
+        <span>
+          <a href="http://smoothiverse.herokuapp.com/" target="blank">
+            <img
+              src="img/smoothiverse.png"
+              alt="smoothiverse screenshot"
+              class="picture"
+            />
+          </a>
+        </span>
+      </div>
+      <div class="project">
+        <p class="title">COVID-19 Prediction Model and Visualizations</p>
+        <p class="skill">Experimenting with two-class support vector machine, 
+        two-class neural network, two-class decision 
+        forest models to utilize a two-class logistic regression model in order to gain a better understanding on
+         covid-19 spread using covid-clinic data</p>
+       
+        <p class="content">Python | Flask | Tableau | Azure-ML | Flask | Zappa| HTML | CSS | AWS </p>
+        <span>
+          <a href="http://uscovid19.s3-website-us-east-1.amazonaws.com/stateData2.html" target="blank">
+            <img
+              src="img/plot.png"
+              alt="plot screenshot"
+              class="picture"
+            />
+            </a>
+            <a href="https://3ar0svmoog.execute-api.us-west-1.amazonaws.com/dev/Form/" target="blank">
+            <img
+              src="img/machine.png"
+              alt="prediction screenshot"
+              class="picture"
+            />
+          </a>
+        </span>
+      </div>
+      <div class="project">
+        <p class="title">COVID-19 Prediction</p>
+       
+<p class="content">Python | Flask | Tableau | Azure-ML | Flask | Zappa| HTML | CSS | AWS |</p>
+        <span>
+          <a href="https://3ar0svmoog.execute-api.us-west-1.amazonaws.com/dev/Form" target="blank">
+            <img
+              src="img/smoothiverse.png"
+              alt="smoothiverse screenshot"
+              class="picture"
+            />
+          </a>
+        </span>
+      </div>
+      <div class="blurb">
+        <div class="title">Contact Me</div>
+        <h3>Please feel free to reach out!</h3>
+        <div class="link-container">
+          <a
+            href="https://www.linkedin.com/in/kelseyrcox/"
+            target="blank"
+            class="link"
+          >
+            <i class="fab fa-linkedin"></i>
+            <br />
+            LinkedIn
+          </a>
         </div>
-    
-    <button>Play again</button>
-</body>
+        <div class="link-container">
+          <a href="https://github.com/kelcc169" target="blank" class="link">
+            <i class="fab fa-github-square"></i>
+            <br />
+            Github
+          </a>
+        </div>
+        <div class="link-container">
+          <a href="mailto:kelsey.cox169@gmail.com" class="link">
+            <i class="fas fa-envelope-square"></i>
+            <br />
+            Email
+          </a>
+        </div>
+        <div class="link-container">
+          <a href="img/resume-kelsey-cox.pdf" target="blank" class="link">
+            <i class="fas fa-file"></i>
+            <br />
+            Resume
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
