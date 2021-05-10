@@ -10,11 +10,11 @@ body {
   font-family: Helvetica,sans-serif;
 }
 
-.contact {
+/* .contact {
   position: absolute;
   bottom: 25px;
   width: 100%;
-}
+} */
 
 .icon {
   font-size: 40px;
@@ -26,7 +26,7 @@ body {
   color: rgba(255, 255, 255, 0.856);
 }
 
-.about {
+.contacts {
   position: fixed;
   height: 100vh;
   width: 29.5%; 
@@ -38,18 +38,17 @@ body {
   background-repeat: no-repeat;
   -webkit-filter: opacity(40%); /* Opera, Chrome, Safari */
     filter: opacity(40%);
-  
 }
 
-
-.me {
+.contacts > div{
   margin: 10px;
   padding: 25px;
   color: white;
   font-size: 30px;
   font-weight: bolder;
-  
+
 }
+
 .email{
   font-size: 20px;
   
@@ -81,7 +80,7 @@ body {
   width: 500px;
 }
 
-.empty {
+.holder {
   background-color:#1f1815;
 }
 
@@ -91,7 +90,7 @@ body {
   color: #e2e2e2
 }
 
-.blurb {
+.detail {
   padding: 10px;
   
   color: #e2e2e2
@@ -101,20 +100,10 @@ body {
   color: #a2a2a2;
 }
 
-.link {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-}
 
-.link-container {
-  display: inline-block;
-  width: 90px;
-  margin: 10px
-}
 
 @media screen and (max-width: 600px) {
-  .about {
+  .contacts {
     height: 300px;
     position: relative;
     width: 100%;
@@ -135,20 +124,10 @@ body {
     width: 350px;
   }
 
-  .link-container {
-    margin: 2px;
-    width: 70px;
-  }
-
-  .link {
-    font-size: 18px;
-  }
-
+  
   img {
     width: 40px;
   }
 
-  .contact {
-    text-align: center;
-  }
+  
 }
